@@ -89,7 +89,10 @@ Dessa maneira, escolhemos esse projeto devido a possibilidade que ele irá ter d
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1-Personas e Mapa de Empatia;
+2-Historias de Usuário;
+3-Requisitos (Funcionais e Não-Funcionais)
+4-Restrições;
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
