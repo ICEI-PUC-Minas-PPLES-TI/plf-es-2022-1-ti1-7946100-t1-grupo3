@@ -101,21 +101,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Idoso no sistema    | Acessar o glossário.               | Verificar o signifcando de um termo    |
-|Idoso no sistema    | Acessar os tutorias escritos       | Aprender algo no celular, ou computador|
-|Idoso no sistema    | Ver os centros de ensino/ogns      | Descobri o mais perto que eu possa ir. |
-|Idoso no sistema    | Assistir videos sobre tecnológia   | Poder ficar cada vez mais por dentro.  |
+|Usuário do sistema    | Acessar o glossário.               | Verificar o signifcando de um termo    |
+|Usuário do sistema    | Acessar os tutorias escritos       | Aprender algo no celular, ou computador|
+|Usuário do sistema    | Ver os centros de ensino/ogns      | Descobri o mais perto que eu possa ir. |
+|Usuário do sistema    | Assistir videos sobre tecnológia   | Poder ficar cada vez mais por dentro.  |
+|Administrador do sistema | Inserir tutoriais  | Usuários aprenderem.  |
+|Administrador do sistema | Excluir tutoriais obsoletos  | Retirar tutoriais de tecnologias que tornaram-se obsoletas ou inutilizáveis.  |
+|Administrador do sistema | Cadastrar/Alterar/Excluir permissões no sistema  | Gerir as permissões do sistema.  |
+|Usuário do sistema | Compartilhar tutoriais  | discutir com amigos e conhecidos temas de interesse.  |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+
 
 ## Requisitos
 
