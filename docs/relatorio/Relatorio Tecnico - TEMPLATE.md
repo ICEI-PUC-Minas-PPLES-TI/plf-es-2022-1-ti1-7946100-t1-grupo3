@@ -1,10 +1,7 @@
 # Informações do Projeto
-`Plataforma para auxiliar mais velhos a aprender tecnologias`  
-
+`Plataforma para auxiliar o aprendizado em Tecnologias focado em pessoas de 3ª Idade  
 
 `Engenharia de Software` 
-
-
 
 ## Participantes
 
@@ -56,13 +53,14 @@ Filipe Faria Melo
 
 ## Problema
 
-Muitos idosos apresentam dificuldades para conseguir usar o telefone, tablet ou computadores. Muitas vezes precisam pedir ajuda para os filhos ou netos que nem sempre estão disponíveis ou estão com paciência. 
-Além de cair em diversos golpes em meios digitais.
+As pessoas da 3ª idade apresentam diversas dificuldades em usar o telefone, tablet, computadores e demais dispositivos tecnológicos. Normalmente recorrem à ajuda dos parentes, filhos ou netos, e estes por muitas vezes não possuem disponibilidade, paciência e a facilidade de explicar temas em que nasceram e cresceram e sempre esteve presentens em suas vidas. 
+
+Por insegurança e não ter os conhecimentos para compreender melhor a Tecnologia, estes idosos possuem muito receio em utiliza-la e consequentemente todos os benefícios que pode trazer para o seu dia a dia.
 
 
 ## Objetivos
 
-Pensando no problema mencionado acima, será desenvolvido uma plataforma digital em que irá ter como objetivo ensinar os idosos a realizar tarefas que envolvem tecnologia de forma cada vez mais autonoma. Além de fornecer ferramentas para os mesmo saberem onde procurar e se interar dos assuntos desse meio. Para que eles tenham cada vez menos dificuldades para realizar as tarefas por conta própria.
+Pensando no problema mencionado acima, desenvolveremos uma solução que consiste em uma plataforma digital com objetivo de ensinar e orientar os idosos maneiras de realizar suas tarefas que envolvem tecnologia de forma cada vez mais independente. Além de apresentar ferramentas úteis para que eles tenham autonomia para saberem onde procurar e se interar dos assuntos desse meio. Para que eles tenham cada vez menos dificuldades para realizar as tarefas por conta própria.
 
 
 ## Justificativa
@@ -101,14 +99,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema    | Acessar o glossário.               | Verificar o signifcando de um termo    |
+|Usuário do sistema    | Acessar o glossário.               | Verificar o significado de um termo    |
 |Usuário do sistema    | Acessar os tutorias escritos       | Aprender algo no celular, ou computador|
-|Usuário do sistema    | Ver os centros de ensino/ogns      | Descobri o mais perto que eu possa ir. |
+|Usuário do sistema    | Ver os centros de ensino/ONGS      | Descobri o mais perto que eu possa ir. |
 |Usuário do sistema    | Assistir videos sobre tecnológia   | Poder ficar cada vez mais por dentro.  |
 |Administrador do sistema | Inserir tutoriais  | Usuários aprenderem.  |
 |Administrador do sistema | Excluir tutoriais obsoletos  | Retirar tutoriais de tecnologias que tornaram-se obsoletas ou inutilizáveis.  |
 |Administrador do sistema | Cadastrar/Alterar/Excluir permissões no sistema  | Gerir as permissões do sistema.  |
-|Usuário do sistema | Compartilhar tutoriais  | discutir com amigos e conhecidos temas de interesse.  |
+|Usuário do sistema | Compartilhar tutoriais  | Discutir com amigos e conhecidos temas de interesse.  |
 
 
 
@@ -229,11 +227,11 @@ As ferramentas empregadas no projeto são:
 | Hospedagem                        | Heroku                          |
 
 
-O editor de código foi o visual studio code porque ele possui uma integração com o git, além de já utilizarmos ele em outras matérias. As ferramentas de comunicação utilizadas foram o canvas e whatsapp, visto que são palataformas que todos já possuiam. Quanto aos wireframes foi utilizado o próprio miro já que é uma plataforma dinâmica no qual foi possível uma grande interação entre o time para confecção das telas de acordo em comum. O framework vai ser o bootstrap visto que a maioria do time já tem conhecimento do mesmo, além de que ele irá facilitar bastante a responsividade do projeto. A hospedagem será feita no heroku devido ao seu fácil uso, além de ser gratuito.
+O editor de código foi o Visual Studio Code porque ele possui uma integração com o git, além da familiariedade com esta ferramenta. As ferramentas de comunicação utilizadas foram o sistema interno da faculdade (Canvas) e Whatsapp, visto que são palataformas que todos já possuiam. Quanto aos Wireframes foi utilizado o próprio miro já que é uma plataforma dinâmica no qual foi possível uma grande interação entre o time para confecção das telas de acordo em comum. O Framework vai ser o bootstrap visto que a maioria do time já tem conhecimento do mesmo, além de que ele irá facilitar bastante a responsividade do projeto. A hospedagem será feita no heroku devido ao seu fácil uso, além de ser gratuito.
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado como repositório remoto..
+A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado como repositório remoto.
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
 > 
