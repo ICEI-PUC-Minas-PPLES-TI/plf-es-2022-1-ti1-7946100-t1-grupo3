@@ -127,7 +127,10 @@ Dessa maneira, escolhemos esse projeto devido a possibilidade que ele irá ter d
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/persona.png)
+> ![Persona Chico](imaages/../images/persona-chico.png)
+> ![Empatia Chico](imaages/../images/mapa-chico.png)
+> ![Persona Maria](imaages/../images/persona-maria.png)
+> ![Empatia Maria](imaages/../images/mapa-maria.png)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
