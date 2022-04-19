@@ -221,30 +221,20 @@ Apresente a divisão de papéis entre os membros do grupo.
 
 ## Ferramentas
 
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Editor de Código | Visual Studio Code | https://code.visualstudio.com/ | 
-|Ferramentas de comunicação | Canvas/WhatsApp | https://pucminas.instructure.com | 
-|Plataforma de hospedagem | heroku | https://www.heroku.com/ |
-|Framework | Bootstrap | https://getbootstrap.com/ |
+
+As ferramentas empregadas no projeto são:
+
+|              Ambiente             |             Plataforma          |
+|-----------------------------------|---------------------------------|
+| Gerenciamento do Projeto          | GitHub                          |
+| Projeto de Interfaces e Wireframes| Miro                            |
+| Editor de Código                  | Visual Studio Code              |
+| Documentos de Apresentação        | Google Slides                   |
+| Repositório de Código Fonte       | GitHub                          |
+| Hospedagem                        | Heroku                          |
 
 
-> As ferramentas empregadas no projeto serão:
-> 
-> - Visual Studio Code.
-> - Bootstrap
-> - Canvas
-> - Heroku
-> 
-> O editor de código foi o visual studio code porque ele possui uma integração com o
-> o git, além de já utilizarmos ele em outras matérias.As ferramentas de comunicação utilizadas foram o canvas e whatsapp, visto que são palataformas que > todos já possuiam. O framework vai ser o bootstrap visto que a maioria do time já tem conhecimento do mesmo, além de que ele irá facilitar bastante a   > responsividade do projeto. A hospedagem será feita no heroku devido ao seu fácil uso, além de ser gratuito
-
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+O editor de código foi o visual studio code porque ele possui uma integração com o git, além de já utilizarmos ele em outras matérias. As ferramentas de comunicação utilizadas foram o canvas e whatsapp, visto que são palataformas que todos já possuiam. Quanto aos wireframes foi utilizado o próprio miro já que é uma plataforma dinâmica no qual foi possível uma grande interação entre o time para confecção das telas de acordo em comum. O framework vai ser o bootstrap visto que a maioria do time já tem conhecimento do mesmo, além de que ele irá facilitar bastante a responsividade do projeto. A hospedagem será feita no heroku devido ao seu fácil uso, além de ser gratuito.
 
 ## Controle de Versão
 
