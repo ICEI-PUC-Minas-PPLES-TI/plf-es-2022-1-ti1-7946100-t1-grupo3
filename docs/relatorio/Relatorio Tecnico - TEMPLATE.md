@@ -1,11 +1,10 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`Plataforma para auxiliar os idosos a aprender tecnologias`  
 
-Plataforma para auxiliar os idosos a aprender tecnologias
 
-`CURSO` 
+`Engenharia de Software` 
 
-Engenharia de Software
+
 
 ## Participantes
 
