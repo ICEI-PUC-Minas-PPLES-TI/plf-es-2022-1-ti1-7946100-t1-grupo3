@@ -304,11 +304,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Plataforma de hospedagem | heroku | https://www.heroku.com/ |
 |Framework | Bootstrap | https://getbootstrap.com/ |
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
+
+> As ferramentas empregadas no projeto serão:
 > 
 > - Visual Studio Code.
 > - Bootstrap
