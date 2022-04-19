@@ -10,8 +10,11 @@ Engenharia de Software
 ## Participantes
 
 Bruno Castanheira Marquezine
+
 Daniel Bezerra Alves
+
 Fernando Lucio Mello do Couto
+
 Filipe Faria Melo
 
 
@@ -89,10 +92,13 @@ Dessa maneira, escolhemos esse projeto devido a possibilidade que ele irá ter d
  
 # Especificações do Projeto
 
-1-Personas e Mapa de Empatia;
-2-Historias de Usuário;
-3-Requisitos (Funcionais e Não-Funcionais)
-4-Restrições;
+1-Personas e Mapa de Empatia: feitos com base nas entrevistas e nos highlights das mesmas;
+
+2-Historias de Usuário: feitos com base nas entrevistas;
+
+3-Requisitos (Funcionais e Não-Funcionais): feitos com base nas nossas ideias para o programa e as necessidades dos usuários;
+
+4-Restrições: descobertas apartir de reuniões e discussões sobre o projeto;
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
