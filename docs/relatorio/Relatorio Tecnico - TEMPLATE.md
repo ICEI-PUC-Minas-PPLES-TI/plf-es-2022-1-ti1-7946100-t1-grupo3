@@ -297,14 +297,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Editor de Código | Visual Studio Code | https://code.visualstudio.com/ | 
+|Ferramentas de comunicação | Canvas/WhatsApp | https://pucminas.instructure.com | 
+|Plataforma de hospedagem | heroku | https://www.heroku.com/ |
+|Framework | Bootstrap | https://getbootstrap.com/ |
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
@@ -312,16 +310,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > As ferramentas empregadas no projeto são:
 > 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
+> - Visual Studio Code.
+> - Bootstrap
+> - Canvas
+> - Heroku
 > 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
+> O editor de código foi o visual studio code porque ele possui uma integração com o
+> o git, além de já utilizarmos ele em outras matérias.As ferramentas de comunicação utilizadas foram o canvas e whatsapp, visto que são palataformas que > todos já possuiam. O framework vai ser o bootstrap visto que a maioria do time já tem conhecimento do mesmo, além de que ele irá facilitar bastante a   > responsividade do projeto. A hospedagem será feita no heroku devido ao seu fácil uso, além de ser gratuito
+
 > 
 > **Links Úteis - Hospedagem**:
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
