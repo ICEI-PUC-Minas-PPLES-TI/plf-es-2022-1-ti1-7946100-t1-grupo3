@@ -248,8 +248,6 @@ Apresente a divisão de papéis entre os membros do grupo.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado como repositório remoto..
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
