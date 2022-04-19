@@ -56,7 +56,7 @@ Filipe Faria Melo
 
 ## Problema
 
-Muitos idosos apresentam dificuldades para conseguir usar o telefone, tablet ou computadores. Muitas vez tem que pedir ajuda para os filhos, ou netos que não sempre estão disponíveis ou tem paciência. 
+Muitos idosos apresentam dificuldades para conseguir usar o telefone, tablet ou computadores. Muitas vezes precisam pedir ajuda para os filhos ou netos que nem sempre estão disponíveis ou estão com paciência. 
 Além de cair em diversos golpes em meios digitais.
 
 
