@@ -1,5 +1,5 @@
 # Informações do Projeto
-`Plataforma para auxiliar os idosos a aprender tecnologias`  
+`Plataforma para auxiliar mais velhos a aprender tecnologias`  
 
 
 `Engenharia de Software` 
