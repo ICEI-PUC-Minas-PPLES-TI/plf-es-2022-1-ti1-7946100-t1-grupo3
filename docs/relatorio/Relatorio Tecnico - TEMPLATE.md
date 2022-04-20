@@ -221,30 +221,22 @@ O editor de código foi o visual studio code porque ele possui uma integração 
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado como repositório remoto..
+A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado como repositório remoto.
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
 > 
 > - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
 > - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
 > 
 > Quanto à gerência de issues, o projeto adota a seguinte convenção para
 > etiquetas:
 > 
 > - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+
+> Quanto aos commits iremos adotar o padrão de Conventional Commits
+> - `feat:` para uma nova feature
+> - `fix:` para arrumar algo do projeto
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
