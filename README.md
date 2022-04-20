@@ -1,18 +1,19 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7621314&assignment_repo_type=AssignmentRepo)
-# Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+# Plataforma para auxiliar mais velhos a aprender tecnologias
+O objetivo do nosso projeto é criar uma plataforma para poder auxiliar os idosos a poderem utilizar a tecnologia e aprender novos conceitos. Para que eles se tornem cada vez mais independentes para realizar as tarefas do cotidiano que envolvem celulares e computadores.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
+* Daniel Bezerra Alves
+* Bruno Castanheira Marquezine
+* Fernando Lucio Mello do Couto
 * Filipe Faria Melo
-* Nome completo do aluno 4
+
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* João Luiz Silva Barbosa
+* Simone Álves Nogueira
 
 ## Instruções de utilização
 
