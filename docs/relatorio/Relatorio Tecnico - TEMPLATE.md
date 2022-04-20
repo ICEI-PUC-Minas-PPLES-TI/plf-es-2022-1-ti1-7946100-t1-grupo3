@@ -178,22 +178,10 @@ Apresentamos aqui a visão geral da interação do usuário através das telas d
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+Visamos procurar uma interface de facil uso, com icones e letras maiores para ajudar na leitura.
+![Wireframe1](imaages/../images/Wireframe1.png)
+As aulas/tutoriais serão tanto escritas com imagens quanto com vídeos, também queremos implementar configurações simples e práticas.
+![Wireframe2](imaages/../images/Wireframe2.png)
 
 
 # Metodologia
