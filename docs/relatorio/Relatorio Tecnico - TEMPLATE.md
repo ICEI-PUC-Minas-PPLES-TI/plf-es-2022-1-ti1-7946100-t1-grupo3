@@ -56,42 +56,89 @@ Filipe Faria Melo
 
 ## Problema
 
-Muitos idosos apresentam dificuldades para conseguir usar o telefone, tablet ou computadores. Muitas vezes precisam pedir ajuda para os filhos ou netos que nem sempre estão disponíveis ou estão com paciência. 
-Além de cair em diversos golpes em meios digitais.
+O crescimento do número de idosos tem acelerado no Brasil em função da consolidação da urbanização. Nesse cenário, podemos observar que a terceira idade não consegue acompanhar a evolução tecnológica e muitas vezes isso resulta em algum tipo de isolamento social já que nos tempos modernos muito das relações com amigos e familiáres tem-se a distancia encurtada devido a interações com aparelhos e redes sociais. E isso é um grande problema para nossos queridos vovôs e vovós já que sua grande maioria apresentam dificuldades em coisas simples como uso do telefone, tablet, computadores e suas redes sociais.
+
+A maioria dos idosos preferem ter seu espaço, pois eles não gostam de incomodar seus entes queridos por qualquer motivo, e muitas vezes quando pedem ajuda aos filhos ou netos, nem sempre estão disponíveis ou com paciência. Nesse momento, a tecnologia aparece como uma solução eficaz para melhorar a comunicação e facilitar a rotina na terceira idade.
 
 
 ## Objetivos
 
-Pensando no problema mencionado acima, será desenvolvido uma plataforma digital em que irá ter como objetivo ensinar os idosos a realizar tarefas que envolvem tecnologia de forma cada vez mais autonoma. Além de fornecer ferramentas para os mesmo saberem onde procurar e se interar dos assuntos desse meio. Para que eles tenham cada vez menos dificuldades para realizar as tarefas por conta própria.
+O objetivo geral deste trabalho é o desenvolvimento de um portal gratuito onde será possível realizar consulta e cadastro de tutoriais de tecnologia que atenda de forma intuitiva às principais dúvidas na hora de manusear aparelhos ou redes sociais.
+
+Como objetivos específicos podemos ressaltar:
+
+• Cadastros de tutoriais de tecnologia, de maneira simples e objetiva.
+
+• Cadastro de para usuários que desejam contribuir com algum conhecimento do ramo tecnológico.
+
+• Página para consulta dos tutoriais já cadastrados.
 
 
 ## Justificativa
 
-Escolhemos essa aplicação pois é nítido para o nosso grupo que todas as tarefas estão sendo cada vez mais realizadas por meio de aparelhos eletrônicos. E já notamos diversos casos na nossa família ou de pessoas próximas de idosos que possuem dificuldades para realizar essa atividades. E esse fato se confirmou cada vez mais durante as entrevistas que realizamos durante essa sprint
-Dessa maneira, escolhemos esse projeto devido a possibilidade que ele irá ter de impactar diversas pessoas que compartilham do mesmo problema.
+A tecnologia e idosos estão cada vez mais conectados. Isso porque a tecnologia tem melhorado a qualidade de vida da terceira idade, fazendo com que eles se sintam mais informados, jovens e enriquecidos. Nesse sentido, ela deve fazer parte do dia a dia dos idosos.
+
+Além disso, a tecnologia os tornam mais independentes, facilitando suas rotinas, sem precisar ficar pedindo auxílio para filhos e netos realizarem alguma atividade.
+
+Este trabalho mostrará a você como a tecnologia pode beneficiar a vida na terceira idade, melhorando os seus relacionamentos sociais e autonomia.
+
 
 ## Público-Alvo
+
+Neste trabalho, iremos focar nos idosos que, por sua vez possuem grandes dificuldades em manusear aparelhos tecnológico, aplicativos e redes sociais em geral.
+
 
 ![Mapa de Stakeholders](imaages/../images/Stakeholders.png)
  
 # Especificações do Projeto
 
-1-Personas e Mapa de Empatia: feitos com base nas entrevistas e nos highlights das mesmas;
+Considerando que a plataforma a ser desenvolvida neste projeto deve atender tanto aos usuários alunos (pessoas interessadas em aprender tecnologia) quanto aos usuários professores (pessoas interessadas em contribuir com conhecimento tenológico), a definição dos problemas a serem tratados neste projeto foi feita através de duas abordagens. Primeiro, criamos um formulário que enviamos para diversas pessoas interessas em aprender tecnologia. Segundo, utilizamos levantamento sobre perfil de entrevistados.
 
-2-Historias de Usuário: feitos com base nas entrevistas;
+1-Personas e Mapa de Empatia: Feitos com base nas entrevistas e nos highlights;
 
-3-Requisitos (Funcionais e Não-Funcionais): feitos com base nas nossas ideias para o programa e as necessidades dos usuários;
+2-Historias de Usuário: Elaborado com base nas entrevistas;
 
-4-Restrições: descobertas apartir de reuniões e discussões sobre o projeto;
+3-Requisitos (Funcionais e Não-Funcionais): Construídos embasados em nossas ideias para o programa e as necessidades dos usuários;
+
+4-Restrições: Descobertas apartir de reuniões e discussões sobre o projeto;
 
 
 ## Personas e Mapas de Empatia
 
+### Francisco / Chico
 
+Idade: 55 Anos.
 
-![Persona Chico](imaages/../images/persona-chico.png)
+Hobbie: Ler livros, assistir filmes, séries, pescar e receber os netos.
+
+Trabalho: Advogado.
+
+Personalidade: Bastante focado, introvertido e detalhista.
+
+Sonhos: Comprar uma casa de praia após sua aposentadoria, onde pode curtir com sua família e amigos.
+
+Objetos e Lugares (Quais objetos físicos e digitais essa pessoa usa? Quando, onde e como ela os usa?): Francisco costuma usar o celular para ligações e trocas de mensagem, também usa o computador para realizar tarefas básicas em seu ambiente de trabalho. Além disso, ele não sai de casa sem o seu óculos de grau e sua maleta.
+
+Objetivos Chave (Quais são os objetivos chave da pessoa durante a utilização do serviço? Por que eles precisam deste serviço?): Ampliar o seu conhecimento tecnológico para poder otimizar suas tarefas rotineiras sem a necessidade do auxílio de algum terceiro.
+
 ![Empatia Chico](imaages/../images/mapa-chico.png)
-![Persona Maria](imaages/../images/persona-maria.png)
+
+### Maria
+
+Idade: 72 Anos.
+
+Hobbie: Jogar bingo, assistir novela e costurar.
+
+Trabalho: Aposentada.
+
+Personalidade: Alegre e extrovertida.
+
+Sonhos: Ver todos os netos formados.
+
+Objetos e Lugares (Quais objetos físicos e digitais essa pessoa usa? Quando, onde e como ela os usa?): Ela sempre usa a sua máquina de costura para fazer roupas para seus filhos e netos, também utiliza seu telefone para ligações.
+
+Objetivos Chave (Quais são os objetivos chave da pessoa durante a utilização do serviço? Por que eles precisam deste serviço?): O objetivo chave seria aprender o uso básico do celular como redes sociais, aplicativos e troca de mensagens.
+
 ![Empatia Maria](imaages/../images/mapa-maria.png)
 
 
@@ -99,41 +146,49 @@ Dessa maneira, escolhemos esse projeto devido a possibilidade que ele irá ter d
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema    | Acessar o glossário.               | Verificar o signifcando de um termo    |
-|Usuário do sistema    | Acessar os tutorias escritos       | Aprender algo no celular, ou computador|
-|Usuário do sistema    | Ver os centros de ensino/ogns      | Descobri o mais perto que eu possa ir. |
-|Usuário do sistema    | Assistir videos sobre tecnológia   | Poder ficar cada vez mais por dentro.  |
-|Administrador do sistema | Inserir tutoriais  | Usuários aprenderem.  |
-|Administrador do sistema | Excluir tutoriais obsoletos  | Retirar tutoriais de tecnologias que tornaram-se obsoletas ou inutilizáveis.  |
-|Administrador do sistema | Cadastrar/Alterar/Excluir permissões no sistema  | Gerir as permissões do sistema.  |
-|Usuário do sistema | Compartilhar tutoriais  | discutir com amigos e conhecidos temas de interesse.  |
-
-
+|EU COMO... `PERSONA`       | QUERO/PRECISO ... `FUNCIONALIDADE`          |PARA ... `MOTIVO/VALOR`                                                                   |
+|---------------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
+|Administrador do sistema   |     Cadastrar um novo tutorial              |  Divulgar o tutorial no portal.                                                          |
+|Usuário do sistema         |     Me cadastrar no portal                  |  Tornar administrador e obter permissão para cadastro de tutoriais.                      |
+|Usuário do sistema         |     Visualizar tutoriais já cadastrados     |  Aprendizado.                                                                            |
+|Administrador do sistema   |     Editar dados dos tutoriais cadastrados  |  Modificar informações em tutoriais devido as mudanças tecnologicas que podem surgir.    |
+|Administrador do sistema   |     Excluir tutoriais cadastrados           |  Remoção de tutoriais de tecnologias que tornaram-se obsoletos ou que entraram em desuso.|
+|Usuário do sistema         |     Acessar o glossário                     |  Verificar o signifcando de um termo.                                                    |
+  
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| O sistema deve apresentar, para cada tipo de tecnologia correspondente, imagens e descrição | MÉDIA | 
-|RF-002| A página inicial do site deverá conter botões que direcione o usuário para o tutorial desejado | ALTA |
-|RF-003| O site deverá conter informações sobre tipos de tecnologias | ALTA |
+|ID    |                             Descrição do Requisito                                             | Prioridade |
+|------|------------------------------------------------------------------------------------------------|------------|
+|RF-001| O sistema deve apresentar, para cada tipo de tecnologia sua descrição correspondente           |    MÉDIA   | 
+|RF-002| A página inicial do site deverá conter botões que direcione o usuário para o tutorial desejado |    ALTA    |
+|RF-003| O site deverá conter informações sobre tipos de tecnologias                                    |    MÉDIA   |
+|RF-004| O sistema deverá conter um campo para cadastro de usuários professores                         |    ALTA    |
+|RF-005| O site precisa ter uma página de login para usuários já cadastrados                            |    ALTA    |
+|RF-006| O site deve conter uma página para cadastro de novos tutoriais                                 |    ALTA    |
+|RF-007| O site precisa conter a opção de edição de tutoriais por usuários já cadastrados               |    MÉDIA   |
+|RF-008| O site precisa conter a oção de excluir tutoriais por usuários já cadastrados                  |    MÉDIA   |
+|RF-009| O site deverá conter uma página para visualização de tutoriais cadastrados                     |    ALTA    |
+|RF-010| O site deverá conter uma interface diferenciada para usuários com e sem cadastro               |    MÉDIA   |
+
+
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O site deve ser compatível com os principais navegadores do mercado | ALTA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 5s | BAIXA | 
-|RNF-003| O sistema deverá ser desenvolvido em linguagem HTML | ALTA |
-|RNF-004| O sistema deve ser responsivo para rodar em dispositivos móveis | MÉDIA |
-
+|ID     |                      Descrição do Requisito                         |Prioridade |
+|-------|---------------------------------------------------------------------|-----------|
+|RNF-001| O site deve ser compatível com os principais navegadores do mercado |    ALTA   | 
+|RNF-002| Deve processar requisições do usuário em no máximo 5s               |   BAIXA   | 
+|RNF-003| O sistema deverá ser desenvolvido em linguagem HTML                 |    ALTA   |
+|RNF-004| O sistema deve ser responsivo para rodar em dispositivos móveis     |   MÉDIA   |
+|RNF-005| O sistema deverá se comunicar com o localstorage                    |    ALTA   |
+|RNF-006| A aplicação terá utilização de JavaScript                           |   BAIXA   |
+|RNF-007| O sistema deverá ter alta disponibilidade                           |   MÉDIO   |
 
 
 
@@ -141,47 +196,61 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| A equipe não pode subcontratar o desenvolvimento do trabalho|
+|ID|                    Restrição                                 |
+|--|--------------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre        |
+|02| A equipe não pode subcontratar o desenvolvimento do trabalho |
 
 
 # Projeto de Interface
 
 Apresentamos aqui a visão geral da interação do usuário através das telas do sistema, bem como os protótipos das telas com as suas funcionalidades.
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
-
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+[UserFlow](images/UserFlow.pdf)
 
 
 ## Wireframes
 
-Visamos procurar uma interface de facil uso, com icones e letras maiores para ajudar na leitura.
-![Wireframe1](imaages/../images/Wireframe1.png)
-As aulas/tutoriais serão tanto escritas com imagens quanto com vídeos, também queremos implementar configurações simples e práticas.
-![Wireframe2](imaages/../images/Wireframe2.png)
+**Tela 1 - Página Inicial**
+
+Página inicial do site com um breve texto.
+
+<img src="images/Wireframe1.pdf" alt="Wireframe" style="zoom:45%;" />
+
+
+
+**Tela 2 - Login**
+
+Login para os usuários cadastrados entrarem em seu perfil. 
+
+<img src="img/wireframe-devscreative-login.jpg" alt="Wireframe" style="zoom:45%;" />
+
+
+
+**Tela 3 - Cadastro usuário**
+
+Formulário para os usuários cadastrarem-se no site.
+
+<img src="img/wireframe-devscreative-cadastre-se.jpg" alt="Wireframe" style="zoom:45%;" />
+
+
+
+**Tela 4 - Quem somos**
+
+Onde ficara as informações sobre o projeto de adoção.
+
+<img src="img/wireframe-devscreative-quem somos.jpg" alt="Wireframe" style="zoom:45%;" />
+
+
+
+**Tela 5 - Adoção**
+
+Onde fica as fotos e informações dos pets disponíveis para adoção e logo abaixo o formulário para cadastrar novos animais.
+
+<img src="img/wireframe-devscreative-adocao.jpg" alt="Wireframe" style="zoom:45%;" />
 
 
 # Metodologia
