@@ -339,12 +339,6 @@ A solução implementada conta com os seguintes módulos:
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
 ## Plano de Testes
 
 Os requisitos levantados para a execução dos testes forám os seguintes:
