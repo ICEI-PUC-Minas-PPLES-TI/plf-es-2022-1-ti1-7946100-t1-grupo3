@@ -241,7 +241,7 @@ Formulário para cadastro de novos tutoriais.
 
 
 
-**Tela 5 - Adoção**
+**Tela 5 - Lista de Tutoriais**
 
 Lista de tutoriais disponíveis.
 
