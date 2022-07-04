@@ -528,7 +528,7 @@ CT-13 - Visualizando tutoriais<br>
 CT-14 - Interface usuário sem cadastro<br>
 CT-15 - Interface usuário com cadastro<br><br>
 
-O relatório com as evidências dos testes de software realizados no sistema pode ser encontrado no seguinte link: <a href="docs/relatorio/Evidências%20de%20Testes"> Evidências de Testes</a></span>
+O relatório com as evidências dos testes de software realizados no sistema pode ser encontrado no seguinte link: <a href="Evidências%20de%20Testes"> Evidências de Testes</a></span>
 
 # Referências
 
