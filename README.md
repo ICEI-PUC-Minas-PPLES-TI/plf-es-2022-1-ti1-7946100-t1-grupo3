@@ -7,7 +7,6 @@ O objetivo do nosso projeto é criar uma plataforma para poder auxiliar os idoso
 * Daniel Bezerra Alves
 * Bruno Castanheira Marquezine
 * Fernando Lucio Mello do Couto
-* Filipe Faria Melo
 
 
 ## Professores responsáveis
