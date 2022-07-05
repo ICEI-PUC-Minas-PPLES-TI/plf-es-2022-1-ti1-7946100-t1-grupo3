@@ -1,0 +1,125 @@
+label {
+    font-weight: bolder;
+}
+::placeholder {
+ 
+    opacity: 3;
+}
+:-moz-placeholder {
+ 
+    opacity:  3;
+ }
+ h1 {
+     text-align: center;
+ }
+ #msg {
+     height: 60px;
+ }
+ #grid-tutoriais tbody {
+     cursor: pointer;
+ }
+
+ .titulo {
+    background-color: #ADD8E6;
+    display: flex;
+    height: 81px;
+    justify-content: center;
+    align-items: center;
+    color:gray;
+    margin-bottom: 30px;   
+ }
+
+ .tutorialCard {
+     margin-bottom: 10px;
+     
+ }
+
+ .botoesCadastro {
+     margin-right: 10px;
+     margin-left: auto;
+ }
+
+ .loginAbove {
+     display: flex;
+     justify-content: center;
+ }
+
+ .loginBox{
+    background-color: #ADD8E6;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50%;
+    
+ }
+
+ .btnStyle {
+     width: 150px;
+ }
+
+ .alertaLogin {
+     display: flex;
+     justify-content: center;
+ }
+
+ .btnLogout {
+     margin-bottom: 10px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+
+ #login .container #login-row #login-column #login-box {
+    margin-top: 0px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -40px;
+  }
+
+  .filtros {
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .filtroDispositivo {
+      margin-bottom: 10px;
+  }
+
+  @media screen and (max-width:600px) {
+      .botoesCadastro {
+          display: none;
+      }
+      .botoesCadastroParaCelular {
+        margin-top: -18px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+  }
+
+  @media screen and (min-width: 600px) {
+    .botoesCadastroParaCelular {
+        display: none;
+    }
+  }
+
+  .tabelaa {
+      width: 100%;
+  }
+
+  .botoesDeAcoes {
+      display: flex;
+      justify-content: end;
+  }
+
+  .botaoVoltar {
+      display: flex;
+      justify-content: end;
+      margin-right: 10px;
+  }

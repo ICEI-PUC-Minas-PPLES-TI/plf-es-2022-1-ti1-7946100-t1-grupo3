@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Tutoriais</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="init()">
+    <div class="titulo">
+        <h1>Cadastro de Tutorias</h1>
+    </div>
+
+
+    <div class="container">
+
+        <div class="btnLogout">
+            <button id="btn_logout" class="btn btn-danger">Efetuar Logout</button>
+            <a href="lista_tutorias.html">
+                <input type="button" class="btn btn-pesquisar" id="btnClear" value="Pesquisar Tutoriais">
+            </a>
+        </div>
+        <div class="jumbotron introducao-cadastro">
+            <h1 class="display-4">Bem vindo!</h1>
+            <p class="lead">Essa seção é destinada ao cadastro de tutorias, aqui você pode colocar os mais diversos
+                tutorias relacionados a tecnologia. </p>
+
+            <hr class="my-4">
+            <p>Antes de publicar o conteúdo, lembre que o público alvo são pessoas acima de 50 anos!</p>
+
+        </div>
+    </div>
+
+    <div class="container">
+
+        <hr />
+        <div class="row preencher-tutorial">
+            <div class="col-9">
+                <h3>Preencha aqui o novo tutorial</h3>
+            </div>
+
+
+        </div>
+
+        <form id="form-tutorial">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputId">Identificador do Tutorial</label>
+                    <input type="text" class="form-control" id="inputId" disabled>
+                </div>
+                <div class="col-sm-8">
+                    <label for="inputNome">Título do Tutorial (*)</label>
+                    <input type="text" class="form-control" id="inputNome" required
+                        placeholder="Informe o nome do Tutorial">
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+
+                <div class="col-sm-6">
+                    <label for="inputNome">Dispositivo (*)</label>
+                    <select name="filtro_cidade" id="inputTelefone" class="form-control">
+                        <option value="">Selecione o Dispositivo</option>
+                        <option value="Celular">Celular</option>
+                        <option value="Computador">Computador</option>
+                        <option value="Tablet">Tablet</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="inputCategoria">Categoria</label>
+                    <select name="filtro_categoria" id="inputCategoria" class="form-control">
+                        <option value="">Selecione a Categoria</option>
+                        <option value="Passo-a-Passo">Passo-a-Passo</option>
+                        <option value="Novidades">Novidades</option>
+                        <option value="Interativo">Interativo</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputDescricao">Breve descrição (*)</label>
+                    <textarea class="form-control" id="inputDescricao" rows="1"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputSite">Tutorial (*)</label>
+                    <textarea class="form-control" id="inputSite" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+
+            <div class="form-group container cont-btns">
+                <div class=" botoesDeAcoes">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                    <input type="button" class="btn btn-alterar" id="btnUpdate" value="Alterar">
+                </div>
+
+                <div class="col-sm-12 excluir-btn-cont">
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                </div>
+            </div>
+
+        </form>
+
+        <div class="row">
+
+            <table id="grid-tutoriais" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Disposito</th>
+                        <th scope="col">Categoria</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Tutorial</th>
+                    </tr>
+                </thead>
+                <tbody id="table-tutoriais">
+                    <tr>
+                        <td scope="row">1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="login.js"></script>
+    <script>
+
+        if (!usuarioCorrente.login) {
+            console.log('entrou');
+            window.location.href = LOGIN_URL;
+        } else {
+            console.log(usuarioCorrente);
+            console.log('não entrou');
+        }
+
+
+        function exibeTutoriais() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-tutoriais").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let tutorial = db.data[i];
+                $("#table-tutoriais").append(`<tr><td scope="row">${tutorial.id}</td>
+                                                <td>${tutorial.titulo}</td>
+                                                <td>${tutorial.dispositivo}</td>
+                                                <td>${tutorial.categoria}</td>
+                                                <td>${tutorial.descricao}</td>
+                                                <td>${tutorial.tutorial}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            document.getElementById('btn_logout').addEventListener('click', logoutUser);
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-tutorial')[0].checkValidity()) {
+                    return;
+                }
+                let campoTitulo = $("#inputNome").val();
+                let campoDispositvo = $("#inputTelefone").val();
+                let campoCategoria = $("#inputCategoria").val();
+                let campoDescricao = $("#inputDescricao").val();
+                let campoTutorial = $("#inputSite").val();
+                let tutorial = {
+                    titulo: campoTitulo,
+                    dispositivo: campoDispositvo,
+                    categoria: campoCategoria,
+                    descricao: campoDescricao,
+                    tutorial: campoTutorial
+                }
+                console.log(campoDescricao);
+                console.log(tutorial);
+                if (!campoTitulo || !campoDispositvo || !campoCategoria || !campoDescricao || !campoTutorial) {
+                    alert(`Todos os Campos são obrigatórios`)
+                } else {
+                    insertTutoriais(tutorial);
+                    exibeTutoriais();
+                    $("#form-tutorial")[0].reset();
+                }
+
+
+
+
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    return;
+                }
+                let campoTitulo = $("#inputNome").val();
+                let campoDispositvo = $("#inputTelefone").val();
+                let campoCategoria = $("#inputCategoria").val();
+                let campoDescricao = $("#inputDescricao").val();
+                let campoTutorial = $("#inputSite").val();
+                let tutorial = {
+                    titulo: campoTitulo,
+                    dispositivo: campoDispositvo,
+                    categoria: campoCategoria,
+                    descricao: campoDescricao,
+                    tutorial: campoTutorial
+                }
+
+                updateTutorial(parseInt(campoId), tutorial)
+
+                exibeTutoriais();
+            });
+
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    return;
+                }
+                deleteTutorial(parseInt(campoId));
+                exibeTutoriais();
+
+                $("#form-tutorial")[0].reset();
+            });
+
+
+            $("#btnClear").click(function () {
+                $("#form-tutorial")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            $("#grid-tutoriais").on("click", "tr", function (e) {
+                let linhaTutorial = this;
+                colunas = linhaTutorial.querySelectorAll("td");
+                colunas.forEach((each, index) => {
+                    console.log(each.innerText + " colunas " + index);
+                })
+                console.log(colunas + "COLUNAS");
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNome").val(colunas[1].innerText);
+                $("#inputTelefone").val(colunas[2].innerText);
+                $("#inputCategoria").val(colunas[3].innerText);
+                $("#inputDescricao").val(colunas[4].innerText);
+                $("#inputSite").val(colunas[5].innerText);
+            });
+
+            exibeTutoriais();
+        }
+
+    </script>
+
+</body>
+
+</html>

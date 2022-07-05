@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhe Tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Detalhes do Tutorial</h1>
+    </div>
+
+    <div class="container">
+        <div id="tutorialDetalhes" class="jumbotron introducao-cadastro">
+
+        </div>
+        <a href="lista_tutorias.html" class="btn btn-primary">Voltar</a>
+    </div>
+
+    <script>
+        console.log('oi');
+        const params1 = new URLSearchParams(location.search);
+        let id = params1.get('id');
+        detalheTutorialEspecifico(id);
+
+        function detalheTutorialEspecifico(id) {
+            db = JSON.parse(localStorage.getItem('db_tutoriais'));
+            console.log(db);
+            console.log(id);
+            console.log(db.data);
+            let idxTutorial = db.data.findIndex((elem) => elem.id == id);
+            if (idxTutorial > -1) {
+                let tutorial = db.data[idxTutorial];
+                document.getElementById('tutorialDetalhes').innerHTML = `
+        <h1 class="display-4">${tutorial.titulo}</h1>
+        <p><strong>Dispositivo:</strong> ${tutorial.dispositivo}</p>
+        <p><strong>Categoria:</strong> ${tutorial.categoria}</p>
+
+        <p class="lead">${tutorial.descricao} </p>
+
+        <hr class="my-4">
+        <h3>Tutorial:</h3>
+        <p>${tutorial.tutorial}</p>
+        `
+            } else {
+                alert("Tutorial não encontrado")
+            }
+        }
+    </script>
+</body>
