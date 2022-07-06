@@ -1,8 +1,2 @@
 # Vídeos do Projeto
-A relação abaixo lista os vídeos feitos para o projeto:
- - [Vídeo AAAAAAAA]()
- - [Vídeo BBBBBBBB]()
-
-> Nesta pasta inclua arquivos de vídeo produzidos para divulgação do 
-> projeto e seus resutados.
-
+Não foi possível dar o upload do vídeo, pois o tamanho estava maior do que 25 MB, porém o mesmo foi enviado no Canvas
