@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: Tecnologia Para Idosos
+authors:
+  - family-names: Marquezine
+    given-names: Bruno Castanheira
+  - family-names: Alves
+    given-names: Daniel Bezerra
+  - family-names: Mello do Couto
+    given-names: Fernando Lucio
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Silva Barbosa
+    given-names: João Luiz
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Nogueira
+    given-names: Simone Álves
+keywords:
+   - Tecnologia
+   - Idosos
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-t1-grupo3
+title: "plf-es-2022-1-ti1-7946100-t1-grupo3"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2022-07-11
+url: "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-t1-grupo3"
